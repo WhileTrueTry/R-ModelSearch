@@ -17,7 +17,7 @@ Ten en cuenta que el número combinatorio de opciones consideradas crece con la 
     * Filtra modelos por significancia estadística global (Test F).
     * Compara modelos complejos vs. simples usando **ANOVA** para justificar la complejidad.
     * Descarta automáticamente modelos "rotos" (`allow_singular`) con multicolinealidad perfecta (coeficientes `NA`).
-    * Filtra modelos sobreajustados (`min_sig_ratio`) exigiendo un ratio mínimo de parámetros estadísticamente significativos.
+    * También filtra modelos exigiendo un ratio mínimo de parámetros estadísticamente significativos (`min_sig_ratio`).
 * **Resultados Claros:** Devuelve los `k_best` modelos (con fórmulas legibles) y un data.frame de `all_results` con la columna `is_top_k` para identificar fácilmente a los ganadores.
 
 ## Dependencias
