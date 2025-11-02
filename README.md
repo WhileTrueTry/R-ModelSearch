@@ -1,4 +1,4 @@
-# Buscador de Modelos Lineales en R (R-ModelSearch)
+# Buscador de Modelos Lineales en R
 
 Este es un módulo de R que automatiza la búsqueda de los mejores modelos lineales (lm) para una variable objetivo, probando múltiples transformaciones y complejidades.
 
