@@ -2,7 +2,10 @@
 
 Este es un módulo de R que automatiza la búsqueda de los mejores modelos lineales (lm) para una variable objetivo, probando múltiples transformaciones y complejidades.
 
-Su objetivo es facilitar un análisis exploratorio, y es importante recalcar que a menudo un análisis detallado puede encontrar que existen modelos más sencillos, con valores de R² muy cercanos, y que al ser menos complejos pueden ofrecer mayor interpretabilidad. Además, la idea es probar combinaciones sencillas y anidadas, pero otro tipo de combinaciones más complejas pueden ser más útiles
+Su objetivo es facilitar un análisis exploratorio, y es importante recalcar que a menudo un análisis detallado puede encontrar que existen modelos más sencillos, con valores de R² muy cercanos, y que al ser menos complejos pueden ofrecer mayor interpretabilidad. Además, la idea es probar combinaciones sencillas y anidadas, pero otro tipo de combinaciones más complejas pueden ser más útiles.
+
+## Importante
+Se espera que los nombres de las columnas no contengan espacios ni caracteres especiales. De incluirlos, esas columnas no serán consideradas en los modelos.
 
 ## Características
 
